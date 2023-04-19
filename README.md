@@ -4,18 +4,20 @@ Team members
 Dung Do
 Emilia Hoang
 
-Description 
-    Project overview: The BC eWallet Application was designed and developed on Android Studio and supported for Android OS. The application’s main objective and usage is to enable users to input, store and add the amount of funds into a system that is divided into categories mentioned below and make it easier for them to view, schedule, edit and control their budget in one single software.
+## Description 
+Project overview: The BC eWallet Application was designed and developed on Android Studio and supported for Android OS. The application’s main objective and usage is to enable users to input, store and add the amount of funds into a system that is divided into categories mentioned below and make it easier for them to view, schedule, edit and control their budget in one single software.
 Users will be able to input their desired income/budget into three categories such as salary, investment and saving. 
 Let users to input expenses into 9 categories: bills, entertainment, food, health, housing, transport, toiletry, clothes and miscellaneous. This will help the users to monitor their expenses.
-    Target audience: Users of any age (preferably 16 or above) who has ability and knowledge to use mobile application and who is interested in managing their finances. 
 
-Project Management
-    Git Hub: project is created and pulished in github for team members to contribute personal workload. When we complete a part of our work, we pull request to Git Hub to upload it. From there, the others can cross check by seeing how the program changes and decide whether to merge it or not.
+Target audience: Users of any age (preferably 16 or above) who has ability and knowledge to use mobile application and who is interested in managing their finances. 
+
+## Project Management
+   Git Hub: project is created and pulished in github for team members to contribute personal workload. When we complete a part of our work, we pull request to Git Hub to upload it. From there, the others can cross check by seeing how the program changes and decide whether to merge it or not.
     Estimated time spent: approx. 40 hours team work and meeting.
     Project allocation: Emilia is responsible for most of layout design and report. Dung Do is responsible for most of backbone idea and project debugging. We also do program testing together to adjust coding language, update the progress and seek effective solution to improve the project properly.
  
-Deliverable features and describe the functionality per feature
+## Feautures
+
     1. Navigation pane: includes Budget mode, Future recurring record mode, Set-up recurring expenses, Export CSV file.
     Dung Do
     Apply navigation drawer activity to manage 4 separate fragments: Budget fragment, Future fragment, Set up recurring fragment and Export fragment. The navigation drawer allows user to manage their activities whenever they open the app. 
@@ -60,7 +62,7 @@ Deliverable features and describe the functionality per feature
     A text view is also used to demonstrate the Budget after users input their expense. If total expense is higher budget, a message “You have exceeded your budget by $1690” is displayed. Otherwise, it will be “You have $30 left to spend”.
     When users click on Details button, a report in activity 5 is shown up.
     The future fragment includes activity 3,5,6.
- 
+    
     8. Set recurring expenses: Users can set a recurring expense that happens weekly, monthly.
     Emilia
     Group of radio buttons allows users to choose their interval for recurring expense that repeats weekly or monthly. 
